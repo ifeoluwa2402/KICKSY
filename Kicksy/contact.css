@@ -1,0 +1,86 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+font-family: 'Poppins', sans-serif;
+background: whitesmoke;
+color: black;
+}
+
+header{
+background: darkblue;
+color: white;
+padding: 20px 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header h1{
+color: orange;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin-left: 25px;
+font-weight: 300;
+}
+
+nav a:hover {
+color: orange;
+}
+
+.contact-section{
+padding: 22px 40px;
+max-width: 600px;
+margin: auto;
+}
+
+.contact-section h2{
+font-size: 40px;
+margin-bottom: 30px;
+text-align: center;
+color: black;
+}
+
+form{
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+margin-bottom: 20px;
+border: 1px solid silver;
+border-radius: 6px;
+font-family: 'Poppins', sans-serif;
+}
+
+button {
+background: orange;
+color: white;
+border: none;
+padding: 12px 20px;
+border-radius: 6px;
+cursor: pointer;
+font-size: 16px;
+}
+
+button:hover{
+background: red;
+}
+
+footer{
+background: darkblue;
+color: white;
+text-align: center;
+padding: 30px 10px;
+margin-top: 40px;
+}
